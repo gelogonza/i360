@@ -20,7 +20,7 @@
     General
 ******************************************/
 body {
-    background-color: gray
+    background-color: #0062ff;
 }
 .container {
     border: 6px solid black;
@@ -49,10 +49,10 @@ p, li, figcaption {
     Links
 ******************************************/
 a:link, a:visited{
-    color: red
+    color: blue
 }
 a:hover, a:active{ 
-    color: green;
+    color: powderblue
 }
 
 
@@ -70,5 +70,5 @@ img {
     Page
 ******************************************/
 .highlight {
-    background-color: greenyellow;
+    background-color: powderblue;
 }
