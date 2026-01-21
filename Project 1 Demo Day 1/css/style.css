@@ -1,0 +1,74 @@
+
+/* this is a comment in css */
+
+/****************************************
+    Utilities
+******************************************/
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+
+}
+/****************************************
+    General
+******************************************/
+body {
+    background-color: gray
+}
+.container {
+    border: 6px solid black;
+    padding: 40px;
+    width: 600px;
+    background-color: white;
+    margin: 0 auto;
+        }
+
+/****************************************
+    Typography
+******************************************/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+
+}
+
+p, li, figcaption {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.3em;
+}
+
+
+
+/****************************************
+    Links
+******************************************/
+a:link, a:visited{
+    color: red
+}
+a:hover, a:active{ 
+    color: green;
+}
+
+
+/****************************************
+    Images
+******************************************/
+img {
+    display: block;
+    width: 100%;
+        }
+
+
+
+/****************************************
+    Page
+******************************************/
+.highlight {
+    background-color: greenyellow;
+}
