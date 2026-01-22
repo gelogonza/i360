@@ -1,0 +1,27 @@
+<!-- Internal style sheet for use in Lab 1 -->
+
+<!-- 
+    Styles for a single page placed in a <style> tag are called an "internal stylesheet".
+    To declare these styles as part of your page, place the code below into the head.
+    Ideally this code lives underneath the boilerplate already inside your head.
+
+    To apply styles, you'll need to connect them to the HTML.
+    The `img` is connected by using an HTML image tag (<img>).
+    The `container` is connected by using an HTML tag with a class on it to identify it by name.
+    To see how this works, wrap `<div class="container">   </div>` around the content in the body.
+    Your page should look a little better than if you had not applied any styles at all.
+-->
+
+<style>
+    .container {
+        width: 720px;
+        margin: 35px auto; /* centers the container */
+        border: 1px solid black;
+        padding: 50px;
+    }
+    img {
+        /* forces images to pay attention to width of the div named 'container', which is its parent */
+        width: 100%;
+        display: block;
+    }
+</style>
