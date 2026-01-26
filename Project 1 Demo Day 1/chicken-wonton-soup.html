@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1 Demo: Day 1</title>
+    <title>Lesson</title>
 
     <! -- order matters normalize must be first in order to overwrite browser styles->
     <link rel="stylesheet" href="css/modern-normalize.css">
@@ -20,10 +20,15 @@
                 <img src ="images/chicken-wonton-soup.jpg" alt="chicken wonton soup">
                 <h1><a href="https://smittenkitchen.com/2017/01/chicken-wonton-soup/" target="_blank" rel="noopener">chicken wonton
                         soup</a></h1>
-                <p>JANUARY 6, 2017<br>
+                <p class="byline">JANUARY 6, 2017 &nbsp; | &nbsp; <br>
                     <a href="#recipe-start">JUMP TO RECIPE</a>
                 </p>
             </header>
+
+            <!--<center></center> DO NOT USE
+            &mdash; html entities = special chars
+            
+            -->
 
             <p>I don&rsquo;t know why it took me so long to make this as it combines the only two things I ever want
                 when
@@ -86,12 +91,10 @@
                 this an
                 easy weeknight soup, yes, even with that wonton folding.</p>
 
-
                 <figure> 
                     <img src="images/chicken-wonton-soup-step1.jpg" alt="recipe step one chicken wonton soup">
                     <figcaption>Step 1 in the recipe</figcaption>
                 </figure>
-
 
             <section class="highlight">
                 <h3 class="sr-only">Ingredients</h3>
@@ -128,13 +131,13 @@
                 </ul>
             </section>
 
-            <aside>
-            <figure>
+            <aside class="clearfix">
+            <figure class="leftimage">
                 <img src="images/chicken-wonton-soup-step2.jpg" alt="step 2 in the recipe">
                 <figcaption>Step 2 in the recipe</figcaption>
             </figure>
 
-            <figure>
+            <figure class="rightimage">
                 <img src="images/chicken-wonton-soup-step3.jpg" alt="step 3 in the recipe for chicken wonton soup">
                 <figcaption>step 3 in the recipe</figcaption>
             </figure>
@@ -144,12 +147,17 @@
                 <h3>Directions</h3>
 
                 <ol>
-                    <li>Make your filling: Combine chicken, soy sauce, salt, sesame oil, ginger, chives and pepper in a
+
+                    <!-- DO NOT USE
+                     <b></b>
+                     <i></i>
+                    USE <em></em> for italics and <strong></strong>-->
+                    <li><em>Make your filling</em>: Combine chicken, soy sauce, salt, sesame oil, ginger, chives and pepper in a
                         bowl with a
                         fork. If you&rsquo;d like to test for seasoning, put a tiny dab in a microwave-safe bowl or
                         plate and cook
                         for 10 very splattery seconds. Adjust flavors as desired.</li>
-                    <li>Form your wontons: Place a few wontons wrappers on your counter. Cover the remaining ones with a
+                    <li><strong>Form your wontons</strong>: Place a few wontons wrappers on your counter. Cover the remaining ones with a
                         piece of
                         plastic wrap. Place 1 heaped teaspoon (from a measuring spoon set) in the center. Use your
                         fingers dipped in
@@ -164,7 +172,7 @@
                         that after I&rsquo;d made a couple and got the hang of it, I could lay out 6 at a time and get
                         each batch of
                         6 done in 2 minutes, meaning that this process took me about 20 minutes total.</li>
-                    <li>Fix up your stock (optional): While you&rsquo;re forming wontons, should you want to enhance
+                    <li><strong>Fix up your stock</strong>(optional): While you&rsquo;re forming wontons, should you want to enhance
                         your stock (see
                         note up top first), chop the white and light green parts of your scallions into 1/2- to 1-inch
                         segments. Cut
@@ -175,21 +183,21 @@
                         needed, to season. Simmer them together for 20 minutes while you make the wontons, then strain
                         out the
                         ginger, scallions and garlic.</li>
-                    <li>Cook the wontons: Once your wontons are formed, you can cook them right in the simmering broth
+                    <li><strong>Cook the wontons</strong>: Once your wontons are formed, you can cook them right in the simmering broth
                         or you can do
                         so in simmering water &mdash; the latter is better so that the cornstarch on the wrappers
                         doesn&rsquo;t make
                         the soup cloudy. Boil wontons for 3 minutes to cook them inside; this is really all it takes,
                         but if
                         you&rsquo;re nervous, cut one in half to make sure.</li>
-                    <li>To finish soup: Add spinach to simmering broth and let cook for one minute, until softened. Add
+                    <li><strong>To finish soup</strong>: Add spinach to simmering broth and let cook for one minute, until softened. Add
                         cooked
                         wontons to broth and let them warm through again for 30 seconds. Ladle wontons and soup into
                         bowls. I used
                         about 1 1/4 cups broth and 6 wontons per serving. Drizzle each dish with a little toasted sesame
                         oil, a bit
                         of soy sauce (if desired) and scatter with reserved dark green scallion tops. Dig in.</li>
-                    <li>Do ahead: Wontons can be formed and refrigerated for a day, or frozen for a month or longer.
+                    <li><strong>Do ahead</strong>: Wontons can be formed and refrigerated for a day, or frozen for a month or longer.
                     </li>
                 </ol>
             </section>
