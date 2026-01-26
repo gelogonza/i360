@@ -1,0 +1,11 @@
+body {
+    background-color: blue;
+    color: white;
+}
+p {
+    padding: 30px;
+}
+table{
+    border: 2px dashed;
+    
+}
