@@ -1,0 +1,178 @@
+ /**********************************
+        Utilities
+************************************/
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+
+}
+
+/***********************************
+    General
+************************************/
+body {
+    background: url("../images/tablecloth-wallpaper.png") fixed no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    font-weight:500;
+}
+
+.container {
+    border: 3px solid #F6878E;
+    padding: 40px;
+    width: 600px;
+    margin: 0 auto;
+    background: url(../images/table-background.jpg) fixed repeat-x;
+    background-size: cover;
+}
+/***********************
+    Typography
+***********************/
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Outfit", "Helvetica", sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 36px;
+    color: #a7e66c;
+    border-top: 2px solid white;
+    padding-top: 1rem;
+    margin:2rem 1rem;
+}
+
+h3 {
+    color: #a7e66c;
+    margin: 4rem 1rem 0;
+}
+
+h5 {
+    color: white;
+    border-top: 2px solid white;
+    margin-top: 3rem;
+    padding-top: 1rem;
+}
+
+.byline {
+    line-height: 2rem;
+    color: white;
+    font-weight: 900;
+    font-family:"Outfit", "Helvetica", sans-serif;
+    text-align: center;
+}
+
+strong {
+    color: #a7e66c;
+    font-style:italic;
+    font-size:large;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    table-layout: fixed;
+    border: 2px solid black;
+}
+
+table th {
+    background: linear-gradient(to right,#a7e66c,#bff38e); 
+    color: black;
+    padding: 1rem;
+    font-size: 12px;
+    text-align: center;
+    border:2px solid black;
+}
+
+
+table td {
+    text-align: center;
+    font-size:small;
+    padding: 1rem;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid black
+}
+/************************
+    Links
+************************/
+a:link, a:visited  {
+    color: white;
+}
+
+a:hover, a:active {
+    color: #a7e66c;
+}
+/************************
+    Images
+************************/
+img {
+    display: block;
+    width: 100%;
+    border:2px solid #a7e66c;
+}
+
+img:hover {
+    box-shadow: 0.5rem 0.5rem 0 #a7e66c;
+}
+
+
+figure {
+    margin: 3rem 0 1rem;
+}
+
+figcaption {
+    font-size: 16px;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+aside figure {
+    float: left;
+    width: 50%;
+}
+
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.leftimage {
+    padding:0 1rem 0 0;
+}
+
+.rightimage {
+    padding:0 0 0 1rem;
+}
+/************************
+    Page
+************************/
+.highlight {
+    background-color: #a7e66c;
+    padding: 1.5rem 2rem 2rem;
+    margin-top: 3rem;
+    color: black;
+}
+
+.highlight h2, .highlight h3 {
+    color: black;
+}
+
+.highlight h2 {
+    border-top: 2px solid black;
+}
